@@ -1,0 +1,37 @@
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Price</td>
+                <td>Color</td>
+                <td>Expiry Date</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of products">
+                <td>
+                    {{p.ID}}
+                </td>
+                <td>
+                    {{p.Title}}
+                </td>
+                <td>
+                    {{p.Price | currency}}
+                </td>
+                <td>
+                    {{p.Color}}
+                </td>
+                <td>
+                    {{p.ExpiryDate | date}}
+                </td>
+                <td >
+                    <button class="btn btn-warning">Edit</button>
+                    <button class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

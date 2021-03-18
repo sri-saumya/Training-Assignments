@@ -1,0 +1,92 @@
+<br>
+
+<div class="container ">
+    <div class="row">
+    <div class="col-md-4">
+        <input type="number"  [(ngModel)]='n1' class="form-control" value= {{n1}} />
+        
+
+    </div>
+
+    <div class="col-md-1">
+        <h3>{{operator}}</h3>
+        <!-- <input type="text" class="form-control" placeholder="OP.">
+         -->
+
+
+    </div>
+
+    <div class="col-md-4">
+        <input type="number" class="form-control"  [(ngModel)]='n2' value= {{n2}}   />
+
+    </div>
+
+    <div class="col-md-1">
+        <h3>=</h3>
+
+    </div>
+    <div class="col-md-2">
+        {{result}}
+
+    </div>
+</div>
+
+<br>
+
+    <div class="row">
+
+
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="add('+')" class="btn btn-warning form-control" >+</button>
+
+        </div>
+
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="sub('-')" class="btn btn-warning form-control">-</button>
+
+        </div>
+
+       
+        
+    </div>
+<br/>
+    <div class="row">
+
+
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="mod('%')" class="btn btn-warning form-control">%</button>
+
+        </div>
+
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="div('/')" class="btn btn-warning form-control">/</button>
+
+        </div>
+        <div class="col-md-4">
+            <input type="number" [(ngModel)]='height' class="form-control" />
+            
+        </div>
+        
+
+        
+    </div>
+<br/>
+    <div class="row">
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="mul('*')" class="btn btn-warning form-control">*</button>
+
+        </div>
+        <div class="col-md-4">
+            <button [style.height.px]='height' [style.width.px]='width' (click)="clr()" class="btn btn-danger form-control">Clear</button>
+        </div>
+
+       
+        <div class="col-md-4">
+            
+            <input type="number" [(ngModel)]='width' class="form-control" />
+            
+
+        </div>
+    </div>
+
+</div>

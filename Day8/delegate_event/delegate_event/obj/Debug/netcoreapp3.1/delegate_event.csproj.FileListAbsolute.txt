@@ -1,0 +1,13 @@
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.csprojAssemblyReference.cache
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.AssemblyInfoInputs.cache
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.AssemblyInfo.cs
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.csproj.CoreCompileInputs.cache
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.exe
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.deps.json
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.runtimeconfig.json
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.runtimeconfig.dev.json
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.dll
+C:\training\delegate_event\delegate_event\bin\Debug\netcoreapp3.1\delegate_event.pdb
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.dll
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.pdb
+C:\training\delegate_event\delegate_event\obj\Debug\netcoreapp3.1\delegate_event.genruntimeconfig.cache

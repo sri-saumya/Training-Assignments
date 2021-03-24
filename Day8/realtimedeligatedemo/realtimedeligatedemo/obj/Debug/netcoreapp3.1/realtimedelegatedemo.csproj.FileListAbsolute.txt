@@ -1,0 +1,13 @@
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.exe
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.deps.json
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.runtimeconfig.json
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.runtimeconfig.dev.json
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.dll
+C:\training\realtimedeligatedemo\realtimedeligatedemo\bin\Debug\netcoreapp3.1\realtimedelegatedemo.pdb
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.csprojAssemblyReference.cache
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.AssemblyInfoInputs.cache
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.AssemblyInfo.cs
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.csproj.CoreCompileInputs.cache
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.dll
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.pdb
+C:\training\realtimedeligatedemo\realtimedeligatedemo\obj\Debug\netcoreapp3.1\realtimedelegatedemo.genruntimeconfig.cache

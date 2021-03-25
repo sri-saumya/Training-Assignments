@@ -1,0 +1,13 @@
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.csprojAssemblyReference.cache
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.AssemblyInfoInputs.cache
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.AssemblyInfo.cs
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.csproj.CoreCompileInputs.cache
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.exe
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.deps.json
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.runtimeconfig.json
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.runtimeconfig.dev.json
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.dll
+C:\training\Delivery\Delivery\bin\Debug\netcoreapp3.1\Delivery.pdb
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.dll
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.pdb
+C:\training\Delivery\Delivery\obj\Debug\netcoreapp3.1\Delivery.genruntimeconfig.cache

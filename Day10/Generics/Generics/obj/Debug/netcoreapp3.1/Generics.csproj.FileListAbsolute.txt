@@ -1,0 +1,13 @@
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.exe
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.deps.json
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.runtimeconfig.json
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.runtimeconfig.dev.json
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.dll
+C:\training\Generics\Generics\bin\Debug\netcoreapp3.1\Generics.pdb
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.csprojAssemblyReference.cache
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.AssemblyInfoInputs.cache
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.AssemblyInfo.cs
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.csproj.CoreCompileInputs.cache
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.dll
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.pdb
+C:\training\Generics\Generics\obj\Debug\netcoreapp3.1\Generics.genruntimeconfig.cache

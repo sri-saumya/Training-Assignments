@@ -1,0 +1,13 @@
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.csprojAssemblyReference.cache
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.AssemblyInfoInputs.cache
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.AssemblyInfo.cs
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.csproj.CoreCompileInputs.cache
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.exe
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.deps.json
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.runtimeconfig.json
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.runtimeconfig.dev.json
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.dll
+C:\training\LambdaExpression2\LambdaExpression2\bin\Debug\netcoreapp3.1\LambdaExpression2.pdb
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.dll
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.pdb
+C:\training\LambdaExpression2\LambdaExpression2\obj\Debug\netcoreapp3.1\LambdaExpression2.genruntimeconfig.cache

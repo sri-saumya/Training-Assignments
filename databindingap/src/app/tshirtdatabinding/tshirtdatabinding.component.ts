@@ -15,13 +15,13 @@ export class TshirtdatabindingComponent implements OnInit {
   a=400;
   b=300;
 
-  imgSource : string = "../assets/b11.jpeg";
+  imgSource : string = "../assets/fff.jpg";
   onmouse1() : void{
-    this.imgSource = "../assets/f1.jpeg";
+    this.imgSource = "../assets/bb.jpg";
   }
 
   onmouse2() : void{
-    this.imgSource = "../assets/b11.jpeg"
+    this.imgSource = "../assets/fff.jpg"
   }
   setwidth() : void{
     this.b = 400

@@ -10,15 +10,28 @@ export class AppComponent {
 
   showdatabindingdemo = true;
   showdirectivedemo = false;
+  showmaster = false;
   
   showdemo() : void{
     this.showdatabindingdemo = true;
     this.showdirectivedemo = false;
+    this.showmaster = false;
+  
 
   }
   showd() : void{
     this.showdatabindingdemo = false;
     this.showdirectivedemo = true;
+    this.showmaster = false;
+  
 
   }
+  showmasterdetails() : void{
+    this.showdatabindingdemo = false;
+    this.showdirectivedemo = false;
+    this.showmaster = true;
+  
+
+  }
+  
 }

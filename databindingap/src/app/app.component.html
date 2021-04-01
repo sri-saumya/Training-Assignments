@@ -1,22 +1,31 @@
 <div class = "container">
   <h1 class = "text-center">{{title}}</h1>
-
+  <br>
+  <br>
   <div class = "row">
-    <div class = "col-md-3">
-      <button (click) ="showdemo()" class="btn btn-danger">DataBinding T-Shirt</button>
+    <div class = "col-md-2"></div>
+
+    <div class = "col-md-4">
+      <button (click) ="showdemo()" class="btn btn-warning">DataBinding T-Shirt</button>
     </div>
-    <div class = "col-md-6"></div>
+
     <div class = "col-md-3">
       <button (click) ="showd()" class="btn btn-warning"> Stock Details</button>
     </div>
 
+    <div class = "col-md-3">
+      <button (click) ="showmasterdetails()" class="btn btn-danger"> Master Details</button>
+    </div>
+
   </div>
+  <br>
   <hr/>
   <div class ="row">
     <div class = "col-md-12">
     <app-tshirtdatabinding *ngIf = "showdatabindingdemo"></app-tshirtdatabinding>
     <app-product *ngIf = "showdirectivedemo"></app-product>
-    </div>>
+    <app-purchase *ngIf = "showmaster"></app-purchase>
+    </div>
   </div>
 
 </div>

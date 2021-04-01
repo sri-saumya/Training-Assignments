@@ -1,3 +1,4 @@
+<h2 class = text-center> Product Items </h2>
 <div class = "row">
     <table class = "table">
         <thead>
@@ -26,8 +27,8 @@
             <tr *ngFor = "let p of products">
                 <td>{{p.Id}}</td>
                 <td>{{p.Title}}</td>
-                <td>{{p.Price |currency : 'INR'}}</td>
-                <td>{{p.ExpiryDate | date}}</td>
+                <td>{{p.Price}}</td>
+                <td>{{p.ExpiryDate}}</td>
                 <td>{{p.Quantity}}</td>
                 
                 <td>

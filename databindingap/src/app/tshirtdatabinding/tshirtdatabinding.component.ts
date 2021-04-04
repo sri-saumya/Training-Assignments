@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MyerrorhandlerService } from '../myerrorhandler.service';
 
 @Component({
   selector: 'app-tshirtdatabinding',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tshirtdatabinding.component.css']
 })
 export class TshirtdatabindingComponent implements OnInit {
+  
 
-  constructor() { }
+  constructor(private MyerrorhandlerService : MyerrorhandlerService) { }
+  ab = undefined;
+  data: string;
 
   ngOnInit(): void {
   }
@@ -22,6 +26,11 @@ export class TshirtdatabindingComponent implements OnInit {
 
   onmouse2() : void{
     this.imgSource = "../assets/fff.jpg"
+  }
+  Onclick()
+  {
+    this.data = this.ab.indexOf();
+  
   }
   setwidth() : void{
     this.b = 400

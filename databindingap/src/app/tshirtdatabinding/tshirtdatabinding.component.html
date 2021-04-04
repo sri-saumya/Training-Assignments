@@ -2,9 +2,11 @@
 <br>
 
 <div class="row">
-<div class = "col-md-3"></div>
+<div class = "col-md-2">
+  <button (click) = "Onclick()" class="btn btn-primary ">Error handler</button>
+</div>
 
-  <div class = "col-md-3">
+  <div class = "col-md-4">
   
 Height : <input type = "text" [(ngModel)] = 'a'>
   </div>
@@ -18,7 +20,9 @@ Width : <input type = "text" [(ngModel)] = 'b'>
 <br>
 <br>
 <div class ="row">
-  <div class = "col-md-4"></div>
+  <div class = "col-md-4">
+    
+  </div>
   <div class = "col-md-4">
     <img [src] = "imgSource" (click) ="setwidth()" [style.height.px] = 'a' [style.width.px] = 'b' (mouseenter)="onmouse1()" (mouseleave)="onmouse2()">  
   </div>

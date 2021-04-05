@@ -11,6 +11,14 @@ import { PurchaseOrderComponent } from './purchase-order/purchase-order.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MyerrorhandlerService } from './myerrorhandler.service';
+import { Cmp1Component } from './cmp1/cmp1.component';
+import { Cmp2Component } from './cmp2/cmp2.component';
+import { ChangecolorDirective } from './changecolor.directive';
+import { AtrributeComponent } from './atrribute/atrribute.component';
+import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from 'src/app-routing.module';
+import { ErrorComponent } from './error/error.component';
+import { ParentDSComponent } from './parent-ds/parent-ds.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +27,20 @@ import { MyerrorhandlerService } from './myerrorhandler.service';
     HelloComponent,
     ProductComponent,
     PurchaseComponent,
-    PurchaseOrderComponent
+    PurchaseOrderComponent,
+    Cmp1Component,
+    Cmp2Component,
+    ChangecolorDirective,
+    AtrributeComponent,
+    HomeComponent,
+    ErrorComponent,
+    ParentDSComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
     MatExpansionModule
   ],
   providers: [{provide : ErrorHandler, useClass : MyerrorhandlerService }],

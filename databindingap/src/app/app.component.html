@@ -1,21 +1,70 @@
+<h1 class = "text-center">{{title}}</h1>
+<br>
+<hr/>
+
+<br>
+
 <div class = "container">
-  <h1 class = "text-center">{{title}}</h1>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/home">Saumya Srivastava</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/databinding">DataBinding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="/product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/masterdetails">MasterDetails</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/directive">AttributeDirective</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shareddata">Data Sharing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/error">ErrorHandler</a>
+        </li>
+
+      </ul>
+      
+      
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+
+  <!-- <h1 class = "text-center">{{title}}</h1>
   <br>
   <br>
   <div class = "row">
-    <div class = "col-md-2"></div>
+    <div class = "col-md-2">
+      <button (click) ="cmp()" class="btn btn-info btn-block">TwoComponent</button>
+    </div>
 
-    <div class = "col-md-4">
+    <div class = "col-md-3">
       <button (click) ="showdemo()" class="btn btn-success btn-block">DataBinding T-Shirt</button>
     </div>
 
-    <div class = "col-md-3">
+    <div class = "col-md-2">
       <button (click) ="showd()" class="btn btn-warning btn-block"> Stock Details</button>
     </div>
 
-    <div class = "col-md-3">
-      <button (click) ="showmasterdetails()" class="btn btn-danger btn-block"> Master Details</button>
+    <div class = "col-md-2">
+      <button (click) ="showmasterdetails()" class="btn btn-primary btn-block"> Master Details</button>
     </div>
+
+    <div class = "col-md-3">
+      <button (click) ="attribute()" class="btn btn-danger btn-block"> Attribute Director</button>
+    </div>
+    
 
   </div>
   <br>
@@ -25,9 +74,14 @@
     <app-tshirtdatabinding *ngIf = "showdatabindingdemo"></app-tshirtdatabinding>
     <app-product *ngIf = "showdirectivedemo"></app-product>
     <app-purchase *ngIf = "showmaster"></app-purchase>
+    <app-cmp1 *ngIf = "cmp1"></app-cmp1>
+    <app-cmp2 *ngIf = "cmp1"></app-cmp2>
+    <app-atrribute *ngIf = "attributeD"></app-atrribute> 
+    <app-home *ngIf = "Home"></app-home>
+
     </div>
   </div>
 
-</div>
+</div> -->
 
 

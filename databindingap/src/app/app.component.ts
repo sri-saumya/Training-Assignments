@@ -11,11 +11,20 @@ export class AppComponent {
   showdatabindingdemo = true;
   showdirectivedemo = false;
   showmaster = false;
+  cmp1 = false;
+  cmp2 = false;
+  attributeD=false;
+  Home=false;
   
   showdemo() : void{
     this.showdatabindingdemo = true;
     this.showdirectivedemo = false;
     this.showmaster = false;
+    this.cmp1 = false;
+    this.cmp2 = false;
+    this.attributeD = false;
+    this.Home = false;
+    
   
 
   }
@@ -23,6 +32,10 @@ export class AppComponent {
     this.showdatabindingdemo = false;
     this.showdirectivedemo = true;
     this.showmaster = false;
+    this.cmp1 = false;
+    this.cmp2 = false;
+    this.attributeD = false;
+    this.Home = false;
   
 
   }
@@ -30,8 +43,41 @@ export class AppComponent {
     this.showdatabindingdemo = false;
     this.showdirectivedemo = false;
     this.showmaster = true;
-  
+    this.cmp1 = false;
+    this.cmp2 = false;
+    this.attributeD = false;
+    this.Home = false;
 
   }
+
+  cmp() : void{
+    this.showdatabindingdemo = false;
+    this.showdirectivedemo = false;
+    this.showmaster = false;
+    this.cmp1 = true;
+    this.attributeD = false;
+    this.Home = false;
+    
+  }
+
+  attribute() : void{
+    this.showdatabindingdemo = false;
+    this.showdirectivedemo = false;
+    this.showmaster = false;
+    this.cmp1 = false;
+    this.attributeD = true;
+    this.Home = false;
+
+  }
+  home() : void{
+    this.showdatabindingdemo = false;
+    this.showdirectivedemo = false;
+    this.showmaster = false;
+    this.cmp1 = false;
+    this.attributeD = false;
+    this.Home = true;
+
+  }
+
   
 }

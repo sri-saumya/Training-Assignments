@@ -16,7 +16,7 @@ import { Cmp2Component } from './cmp2/cmp2.component';
 import { ChangecolorDirective } from './changecolor.directive';
 import { AtrributeComponent } from './atrribute/atrribute.component';
 import { HomeComponent } from './home/home.component';
-import { AppRoutingModule } from 'src/app-routing.module';
+import { AppRoutingModule } from '../app-routing.module';
 import { ErrorComponent } from './error/error.component';
 import { ParentDSComponent } from './parent-ds/parent-ds.component';
 

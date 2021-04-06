@@ -17,8 +17,15 @@ export class ProductComponent implements OnInit {
  
   ngOnInit(): void {
     this.products = this.DataService.getProducts();
+
+
+    
     
   }
+
+  displayedColumns: string[] = ['ID', 'TITLE', 'Price',  'ExpiryDate',  'Quantity' ];
+  searchtext:string;
+  searchpipe:number;
 
   
 }

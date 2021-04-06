@@ -21,15 +21,29 @@ export class SharingService {
       this.product$ = new BehaviorSubject(this.prod);
    }
 
-   setprice(price : number){
+setprice(price : number){
       this.prod.Price = price
       //this.product$.next(this.prod);
    }
  
-
-   
-   settitle(title : string){
+settitle(title : string){
     this.prod.Title = title
     //this.product$.next(this.prod);
  }
+
+setquantity(quantity : number){
+  this.prod.Quantity = quantity
+  //this.product$.next(this.prod);
+}
+setid(id : number){
+  this.prod.Id = id
+  //this.product$.next(this.prod);
+}
+
+updateProduct(p : IProduct){
+  this.prod = {
+    ...p
+  }
+  this.product$.next(this.prod);
+}
 }

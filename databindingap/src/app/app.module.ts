@@ -1,5 +1,5 @@
 import { ErrorHandler, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -19,6 +19,10 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { ErrorComponent } from './error/error.component';
 import { ParentDSComponent } from './parent-ds/parent-ds.component';
+import { LoginComponent } from './login/login.component';
+import { MycustomepipePipe } from './mycustomepipe.pipe';
+import { PricepipePipe } from './pricepipe.pipe';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -34,14 +38,20 @@ import { ParentDSComponent } from './parent-ds/parent-ds.component';
     AtrributeComponent,
     HomeComponent,
     ErrorComponent,
-    ParentDSComponent
+    ParentDSComponent,
+    LoginComponent,
+    MycustomepipePipe,
+    PricepipePipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTableModule
+
   ],
   providers: [{provide : ErrorHandler, useClass : MyerrorhandlerService }],
   bootstrap: [AppComponent]

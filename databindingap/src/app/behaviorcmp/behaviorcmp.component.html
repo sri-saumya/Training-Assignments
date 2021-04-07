@@ -1,0 +1,63 @@
+<br>
+<br>
+<h2><div class="bg-info display-2">Behavior Subject Demo</div></h2>
+<br>
+<br>
+<br>
+<div class="wrapper">
+<div class="row">
+ 
+  <div class="col-md-4">
+    <button (click)='subscribe1()' class="btn btn-info btn-block">Subscriber 1 </button>
+    <hr />
+    <div *ngFor="let p of observer1">
+      <p class="data1"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver1">
+      complete
+    </div>
+  </div>
+
+  
+   <div class="col-md-4">
+    <button (click)='susbcribe2()' class="btn btn-warning btn-block">Subscriber 2 </button>
+    <hr />
+    <div *ngFor="let p of observer2">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver2">
+      complete
+    </div>
+  </div>
+
+
+
+   
+   <div class="col-md-4">
+    <button (click)='susbcribe3()' class="btn btn-success btn-block">Subscriber 3 </button>
+    <hr />
+    <div *ngFor="let p of observer3">
+      <p class="data3"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver3">
+      complete
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="footer">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <p class="text-info">
+       Shows value from  last value. The last value is cached. A subscriber will get the latest value upon initial subscription. The semantics for this subject is to represent a value that changes over time
+    </p>
+  </div>
